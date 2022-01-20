@@ -29,7 +29,7 @@ tensorflow channels pruning
 ~~~python
 ### ps
 ### 稀疏训练-API-tensorflow_model_optimization，官网存在教程
-### short-cut和DW的剪裁方法二，都是个人的选择，同时因为没有API处理，需要对自己的模型	   很熟悉，一般整个模型的weights里面，len(conv/dw)==2,权重+偏置；len(BN)==4,权     重+偏置+均值+方差
+### short-cut和DW的剪裁方法二，都是个人的选择，同时因为没有API处理，需要对自己的模型很熟悉，一般整个模型的weights里面，len(conv/dw)==2,权重+偏置；len(BN)==4,权重+偏置+均值+方差
 ### 训练-减去通道-再训练的过程中，有预热-回温，具体可以在参考当年的论文
 ~~~
 
