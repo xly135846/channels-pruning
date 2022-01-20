@@ -35,7 +35,7 @@ tensorflow channels pruning
 
 ~~~python
 ### 添加的部分，针对dw的定位得到mask
-### vi /mnt/fu04/xueluoyang/anaconda3/envs/py37/lib/python3.7/site-packages/kerassurgeon/surgeon.py
+### vi ../anaconda3/envs/py37/lib/python3.7/site-packages/kerassurgeon/surgeon.py
 588         elif layer_class == 'DepthwiseConv2D':
 589             if np.all(inbound_masks):
 590                 new_layer = layer
